@@ -6,9 +6,9 @@ A simple, printable, nested to-do list app. Lists are grouped into categories, a
 
 | What | Where |
 |---|---|
-| **Source code (the real project)** | `C:\Users\TedJackson\dad-todo-app` |
+| **Working copy (use this one)** | `C:\dev\2026-todo` |
+| **Older copy** | `C:\Users\TedJackson\dad-todo-app` (same repo; can be deleted) |
 | **GitHub repo** | https://github.com/tedjackson123/dad-todo-app (branch `main`, 1 commit: "Initial commit") |
-| **This folder** | `C:\dev\2026-todo` - project notes only (no code yet) |
 | **Netlify** | **Not deployed on the company Netlify.** Searched all projects on 2026-10-03; the only one is `managed-home`. |
 | **Built output** | `C:\Users\TedJackson\dad-todo-app\dist` (built 2026-02-26) |
 | **Empty leftover folder** | `C:\Users\TedJackson\dad-todo` - safe to delete |
@@ -26,7 +26,7 @@ No other copies were found on this computer. If it is hosted somewhere, it is no
 ## Run it locally
 
 ```bash
-cd C:\Users\TedJackson\dad-todo-app
+cd C:\dev\2026-todo
 npm install
 npm run dev      # dev server (Vite)
 npm run build    # production build into dist/
@@ -40,8 +40,7 @@ npm run preview  # preview the build
 
 ## Ideas / next steps
 
-- [ ] Decide on a home: copy or clone the repo into `C:\dev\2026-todo` (following the `2026-family-tree` / `2026-home-manager` pattern).
+- [x] Cloned into `C:\dev\2026-todo` (matches the `2026-family-tree` / `2026-home-manager` pattern).
 - [ ] Deploy (e.g., Netlify) so Dad can open it from any device via a link.
 - [ ] Sync data across devices (localStorage is per-browser). Options: a small database or a cloud-backed store.
 - [ ] Add a backup/export of the lists.
-- [ ] Replace the default README in the repo with this one.
